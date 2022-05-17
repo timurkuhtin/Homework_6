@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace Homework_6
 {
-    internal class baskets
+    internal class Baskets
     {
-        public int number_of_order;
+        public int NumberOfOrder;
         public product[] products = new product[10];
 
-        public void Write_basket()
+        public void WriteBasket()
         {
             int sum = 0;
             for(int i = 0; i < this.products.Length; i++)

@@ -12,7 +12,7 @@ namespace Homework_6
         public int price;
         public string comment;
 
-        public void Make_a_product_list(product[] products)
+        public void MakeAProductList(product[] products)
         {
             for (int i = 0; i < 6; i++)
             {
