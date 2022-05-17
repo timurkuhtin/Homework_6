@@ -6,6 +6,8 @@ namespace Homework_6
     {
         static void Main(string[] args)
         {
+            order order1 = new order();
+            order1.MakeAnOrder();
         }
     }
 }
